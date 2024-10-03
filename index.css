@@ -1,0 +1,458 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+html,body{
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url('./Imgs/parallax1.jpg');
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header>p{
+    display: flex;
+    letter-spacing: 3px;
+    width:400px;
+    height:60px;
+    font-size:30px;
+    background-color: #5a5959;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    display: none;
+}
+nav{
+    display: flex;
+    gap:10px;
+    position: fixed;
+    align-items: center;
+    color:#777777d2;
+    top:0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    z-index: 15;
+}
+#search{
+    position: absolute;
+    top:0;
+    right:0;
+    padding:15px;
+}
+#search:hover{
+    background-color: red;
+}
+#nav>a,nav>a{
+    text-decoration: none;
+    color:#777777d2;
+    margin:2px;
+}
+#nav1>a{
+    text-decoration: none;
+    color:#777777d2;
+    margin:2px;
+}
+#nav1>a>i{
+    padding:5px;
+}
+#nav{
+    display: none;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top:50px;
+    right: 0;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+#nav>a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:#777777d2;
+    height: 25%;
+    color:black
+}
+#nav>a:hover{
+    background-color: #5a59593c;
+}
+#home1{
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home1:hover{
+width: 60px;
+background-color: #5a59593c;
+color:black;
+}
+#menubar{
+    position: absolute;
+    top:0;
+    right: 0;
+    border-radius: 15%;
+}
+#menubar:hover{
+    color:white;
+    background-color: black;
+}
+#menubar{
+    display: none;
+    position: absolute;
+    top:0;
+    right:0;
+    padding:15px;
+}
+.titletext{
+    font-size: 30px;
+    opacity: 0.5;
+    display: flex;
+    gap:30px;
+    flex-direction:column;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+em{
+    font-size: medium;
+    opacity: 0.5;
+    text-align: center;
+}
+#avatar{
+    opacity: 0.7;
+width: 100%;
+}
+#avatar:hover{
+    opacity: 0.9;
+}
+#avatar1{
+    display: flex;
+    gap:30px;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#avatar1>span{
+    opacity: 0.5;
+}
+#float{
+    width: 100%;
+display: flex;
+gap:10px;
+justify-content: space-between;
+}
+#bottom{
+    width: 40%;
+    margin-top:50px;
+}
+#about{
+padding-left: 10%;
+padding-right: 10%;
+}
+#plus{
+    margin-top: 100px;
+}
+#imgoodat>div{
+    height: 30px;
+    margin:5px;
+    width: 95%;
+    background-color:#7777772b;
+}
+#imgoodat>div>div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color:#777;
+}
+#imgoodat>span{
+    color: #777;
+    letter-spacing: 5px;
+    margin: 5px;
+}
+#first{
+    width:90%;
+}
+#second{
+    width: 85%;
+}
+#third{
+    width: 75%;
+}
+#plus{
+    display: flex;
+    margin-top:100px ;
+    height: 100px;
+    width: 100%;
+    background-color: #777;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+#plus>span>span{
+    font-size: 30px;
+}
+#plus>span{
+    width: 25%;
+text-align: center;    
+}
+#portfolio{
+    height:400px;
+    background-image: url('/Imgs/parallax2.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+    color: white;
+}
+#imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px
+}
+#imgs>div{
+    display: flex;
+    gap:5px;
+    width: 100%;
+}
+#imgs>div>img{
+    width: 23%;
+}
+#load{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    width:150px;
+    height:50px;
+    background-color: #77777766;
+    color: black;
+}
+#load:hover{
+    background-color: #777777c9;
+}
+#black{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+#x{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+    top:0;
+    right: 0;
+    padding: 20px;
+    color:white;
+}
+#p{
+    color: white;
+    font-size: large;
+}
+#x:hover{
+    background-color: #ffffff6d;
+}
+#img{
+    width: 50%;
+}
+#imgs>div>img:hover{
+opacity: 0.8;
+}
+#imgs{
+padding-left:6%
+}
+#contact{
+    height: 400px;
+    width: 100%;
+    background-image: url('/Imgs/parallax3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#contact>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    letter-spacing: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.185);
+}
+#contacts{
+    display: flex;
+    height: 550px;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#contacts>img{
+    width: 40%;
+}
+#contacts>#inputs{
+    width: 60%;
+    gap:10px;
+    font-size: large;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 30px;
+    font-size: medium;
+    padding: 5px;
+    margin:5px;
+    border: 1px solid rgba(0, 0, 0, 0.101);
+}
+#inputs>p{
+    font-size: 25px;
+    opacity: 0.6;
+}
+#inputs>p>i{
+margin-right: 6px;
+}
+#inputs>div{
+    display: flex;
+}
+#inputs>div>input{
+    width: 50%;
+}
+#send{
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    width:180px;
+    height: 40px;
+}
+footer{
+    margin-top:100px;
+    height: 200px;
+    gap:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #777;
+    color:white;
+    font-size: 20px;
+}
+footer>a{
+    color: #000000;
+    width: 140px;
+    height: 50px;
+    font-size:15px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer>a,footer>p:hover{
+opacity: 0.8;
+}
+footer:hover{
+    background-color: black;
+}
+@media (max-width:602px) {
+    #logo1{
+        display:none
+    }
+    #logo{
+        display: flex;
+        width: 300px;
+    }
+    #search{
+        display:none;
+    }
+    #menubar{
+        display: block;
+    }
+    #nav1{
+        display: none;
+    }
+#about{
+    height:150%;
+}
+#bottom{
+    display: none;
+}
+#avatar1{
+    width: 100%;
+}
+#plus{
+    flex-direction: column;
+    gap:20px;
+    height: 300px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+#imgs>div{
+    display:grid;
+    justify-items: center;
+}
+#imgs>div>img{
+    width: 90%;
+}
+#contacts{
+    flex-direction: column;
+}
+input{
+    width:90%;
+}
+#contacts>img{
+    width: 90%;
+}
+#contacts>#inputs{
+    width: 90%;
+}
+#contacts>#inputs>p{
+font-size:20px;
+}
+#inputs>div{
+    display: flex;
+    flex-direction: column;
+}
+#inputs>div>input{
+    width: 90%;
+}
+#contacts{
+    height:600px
+}
+}

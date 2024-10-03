@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./Imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CSS-HTML template</title>
+</head>
+<body>
+    <header id="home">
+    <p id="logo1">MY WEBSITE LOGO</p>
+    <p id="logo">MY LOGO</p>
+    </header>
+    <nav>
+        <a href="#home" id="home1">HOME</a>
+        <i class="fa fa-bars" id="menubar" onclick="menubar()"></i>
+        <div id="nav1">    
+            <a href="#about"><i class="fa fa-user"></i>ABOUT</a>
+            <a href="#portfolio"><i class="fa fa-th"></i>PORTFOLIO</a>
+            <a href="#contact"><i class="fa fa-envelope"></i>CONTACT</a>
+            <i class="fa fa-search" id="search"></i></div>
+    <div id="nav">    
+        <a href="#about">ABOUT</a>
+        <a href="#portfolio">PORTFOLIO</a>
+        <a href="#contact">CONTACT</a>
+        <a href="">SEARCH</a>
+       </div>
+    </nav>
+    <mean>
+        <section id="about">
+            <p class="titletext">
+ABOUT ME<br/>
+<em>I love photography</em>
+            </p>
+            <em id="top">We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em>
+            <div id="float">  <div id="avatar1">
+            <span><i class="fa fa-user"></i>MY NAME</span>
+        <img src="./Imgs/avatar_hat.jpg" id="avatar"></div>
+        <em id="bottom">Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em>
+    </div>
+    <p class="titletext">Im really good at:</p>
+    <div id="imgoodat">
+        <span><i class="fa fa-camera"></i>Photography</span>
+        <div><div id="first" class="procent">90%</div></div>
+        <span><i class="fa fa-laptop"></i>Web Design</span>
+        <div><div id="second" class="procent">85%</div></div>
+        <span><i class="fa fa-photo"></i>Photoshop</span>
+        <div><div id="third" class="procent">75%</div></div>
+    </div>
+    </section>
+    <section>
+        <div id="plus">
+           <span> <span>14+</span><br/>Partners</span>
+           <span> <span>55+</span><br/>Projects Done</span>
+            <span><span>89+</span><br/>Happy Clients</span>
+            <span><span>15+</span><br/>Meetings</span>
+        </div>
+        <div id="portfolio">
+            <p>PORTFOLIO</p>
+        </div>
+        <p class="titletext">MY WORK<br/>
+        <em>Here are some of my latest lorem work ipsum tipsum.
+            <br/>Click on the images to make them bigger</em>
+        </p>
+        <div id="black"><i class="fa fa-times" id="x"  onclick="photo()"></i><img src="" id="img"><br/><p id="p"></p></div>
+        <div id="imgs">
+            <div>
+                <img src="./Imgs/p1.jpg" alt="The mist over the mountains" onclick="photo(this)">
+                <img src="./Imgs/p2.jpg" alt="Coffee beans" onclick="photo(this)">
+                <img src="./Imgs/p3.jpg" alt="Bear closeup" onclick="photo(this)">
+                <img src="./Imgs/p4.jpg" alt="Quiet ocean" onclick="photo(this)">
+            </div>
+            <div>
+                <img src="./Imgs/p5.jpg" alt="The mist" onclick="photo(this)">
+                <img src="./Imgs/p6.jpg" alt="My beloved typewriter" onclick="photo(this)">
+                <img src="./Imgs/p7.jpg" alt="Empty ghost train" onclick="photo(this)">
+                <img src="./Imgs/p8.jpg" alt="Sailing" onclick="photo(this)">
+            </div>
+            <p id="load">LOAD MORE</p>
+        </div>
+    </section>
+    <section>
+        <div id="contact">
+            <p>CONTACT</p>
+        </div>    
+        <p class="titletext">WHERE I WORK<br/>
+        <em>I'd love your feedback!</em>        
+    </p>
+    <div id="contacts">
+    <img src="./Imgs/map.jpg">
+    <div id="inputs">
+<p><i class="fa fa-map-marker"></i>Chicago,US</p>
+<p><i class="fa fa-phone"></i>Phone:+00 151515</p>
+<p><i class="fa fa-envelope"></i>Email: mail@mail.com</p>
+<p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+<div><input placeholder="Name" type="text"><input placeholder="Email"></div>
+<input placeholder="Message" type="text">
+<span id="send"><i class="fa fa-paper-plane"></i>SEND MESSAGE</span>
+    </div></div>
+    </section>
+    </mean>
+    <footer>
+        <a href="#home"><i class="fa fa-arrow-up"></i>To the top</a>
+        <p id="icons"><i class="fa fa-facebook-official"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-snapchat"></i>
+            <i class="fa fa-pinterest-p"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </p>
+        <p>Powered by w3.css</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
